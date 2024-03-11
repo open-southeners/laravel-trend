@@ -15,6 +15,7 @@ class PgsqlAdapter extends AbstractAdapter
             'week' => 'IYYY-IW',
             'month' => 'YYYY-MM',
             'year' => 'YYYY',
+            'quarter' => 'Q',
             default => throw new Error('Invalid interval.'),
         };
 
